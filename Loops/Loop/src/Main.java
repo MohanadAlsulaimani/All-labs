@@ -1,14 +1,17 @@
-/*
-Mohanad Alsulaimani
- */
-// A loop going from 1 to 5
+import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args) {
-        for (int i = 1; i <= 5; i++) {
-            for (int j = 5 - i + 1; j >= 1; j--) {
-                System.out.print(j + " ");
-            }
-            System.out.println();
-        }
+    public static void main(String[] args){
+        Scanner math = new Scanner(System.in);
+System.out.print("Enter an integer: ");
+int number = math.nextInt();
+if (number % 2 == 0){
+    System.out.println("The number number is odd.");
+}
+else{
+    System.out.println("The number is even.");
+
+}
+
     }
 }

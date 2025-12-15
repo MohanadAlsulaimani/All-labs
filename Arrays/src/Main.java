@@ -2,17 +2,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // a) Accepts an array of integer numbers from the user
         System.out.print("Enter the array size: ");
-        int size = scanner.nextInt();
+        int size = sc.nextInt();
 
         int[] numbers = new int[size];
 
         System.out.print("Enter " + size + " integer numbers: ");
         for (int i = 0; i < size; i++) {
-            numbers[i] = scanner.nextInt();
+            numbers[i] = sc.nextInt();
         }
 
         // b) Finds the largest and smallest elements in the array
@@ -31,6 +31,6 @@ public class Main {
         System.out.println("The smallest element: " + smallest);
         System.out.println("The largest element: " + largest);
 
-        scanner.close();
+        sc.close();
     }
 }
