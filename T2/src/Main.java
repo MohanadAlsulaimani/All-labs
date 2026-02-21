@@ -6,14 +6,14 @@ public class Main {
   Scanner sc = new Scanner(System.in);
 
   // User input
-        System.out.println("Enter the temperature in celcius:");
+        System.out.print("Enter the temperature in celcius: ");
         float celcius = sc.nextFloat();
 
         //المعادله الحسابيه لي التحويل من celcius الى fahrenheit
         float Fahrenheit = (celcius * 9 / 5) + 32;
-        System.out.println("The temperature in Fahrenheit is: " + Fahrenheit );
+        System.out.print("The temperature in Fahrenheit is: " + Fahrenheit );
 
-
+sc.close();
 
     }
 }
