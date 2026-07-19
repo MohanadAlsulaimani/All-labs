@@ -2,8 +2,8 @@ package lap1p;
 import java.util.Scanner;
 
 /**
- * Name:Qusay Faisal ALharbi
- * ID:s44712226
+ * Name:
+ * ID:
  *
  * @author Elite
  */
