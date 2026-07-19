@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Name:
  * ID:
  *
- * @author Elite
+ * @author 
  */
 public class QusayFaisal_lab2 {
 
