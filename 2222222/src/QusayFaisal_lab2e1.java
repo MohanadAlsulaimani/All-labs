@@ -1,6 +1,6 @@
 /*
-#Name:Qusay Faisal ALharbi
-#ID:44712226
+#Name
+#
 #group:1
 */
 import java.util.Scanner;
