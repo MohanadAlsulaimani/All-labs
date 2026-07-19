@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author BIG_M
+ * @author
  */
 import java.util.Scanner;
 
